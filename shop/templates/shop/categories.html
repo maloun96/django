@@ -4,15 +4,18 @@
     <div class="row" ng-controller="categoryCtrl" ng-init="init()">
 
 
-        <form role="form" class="col-lg-12" ng-submit="CategoryForm()">
+        <form role="form" class="category_form col-lg-12" ng-submit="CategoryForm()">
             {% csrf_token %}
             <div class="form-group">
+
+                <input type="hidden" ng-model="category_id" name="category_id">
 
                 <label>Name </label>
                 <input ng-model="name" name="name" class="form-control">
                 <p class="help-block">Insert the new category name.</p>
 
                 <button type="submit" class="btn btn-default">Submit</button>
+                <button class="btn btn-info" ng-click="resetForm()">Reset</button>
                 <div style="clear: both;height: 20px;"></div>
                 <div class="alert alert-success" ng-show="success == true">
                     <strong>Success!</strong> Indicates a successful or positive action.
@@ -36,7 +39,7 @@
                             <td>{[{ value.name }]}</td>
                             <td>
                                 <a href="" ng-click="deleteCategory(value.key)" class="btn btn-danger">Delete</a>
-                                <a href="" class="btn btn-info">Edit</a>
+                                <a href="" ng-click="editCategory(value.key)" class="btn btn-info">Edit</a>
                             </td>
                         </tr>
                     </tbody>

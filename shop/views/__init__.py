@@ -1,3 +1,4 @@
-from .index_views import *
-from .category_views import *
-from .subcategory_views import *
+from .index import *
+from .category import *
+from .subcategory import *
+from .product import *

@@ -1,0 +1,41 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+    <div class="row">
+
+        <div class="col-lg-12">
+            <h2>Bordered Table <a href="{% url 'add_product' %}">
+                <button class="pull-right btn btn-info">Add new product</button>
+            </a></h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Image</th>
+                        <th>Subcategory</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for product in data %}
+                        <tr>
+                            <td>{{ product.name }}</td>
+                            <td>{{ product.price }}</td>
+                            <td><img src="{{ product.image.url }}" alt="" style="width: 200px;"></td>
+                            <td>{{ product.subcategory }}</td>
+                            <td>
+                                <form method="POST" action="{% url 'delete_product' product.id %}">
+                                    {% csrf_token %}<button type="submit" class="btn btn-danger" >Delete</button>
+                                </form><br />
+                                <a href="{% url 'update_product' product.id %}" class="btn btn-info">Edit</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}

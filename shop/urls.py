@@ -1,4 +1,6 @@
 from django.conf.urls import url
+
+from shop.models import Product
 from . import views
 
 urlpatterns = [
@@ -17,4 +19,15 @@ urlpatterns = [
     url(r'^subcategories/add$', views.subcategories_add, name='subcategories_add'),
     url(r'^subcategories/delete$', views.subcategories_delete, name='subcategories_delete'),
     url(r'^subcategories/edit$', views.subcategories_edit, name='subcategories_edit'),
+
+
+    #Urls for products
+    url(r'^products/$', views.IndexView.as_view(), name='products'),
+    url(r'^products/add$', views.ProductCreate.as_view(), name='add_product'),
+
+    url(r'^products/(?P<pk>[0-9]+)/$', views.ProductUpdate.as_view(), name='update_product'),
+
+    url(r'^products/(?P<pk>[0-9]+)/delete/$', views.ProductDelete.as_view(), name='delete_product'),
+
+
 ]

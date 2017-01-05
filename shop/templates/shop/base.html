@@ -21,6 +21,9 @@
     <!-- Morris Charts CSS -->
     <link href="{% static 'shop/css/plugins/morris.css' %}" rel="stylesheet">
 
+
+    <link href="{% static 'shop/css/mystyle.css' %}" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="{% static 'shop/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
 
@@ -157,10 +160,13 @@
                         <a href=""><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li class="">
-                        <a href="{% url 'shop.views.category_views.categories' %}"><i class="fa fa-fw fa-dashboard"></i>Categories</a>
+                        <a href="{% url 'shop.views.category.categories' %}"><i class="fa fa-fw fa-dashboard"></i>Categories</a>
                     </li>
                     <li class="">
-                        <a href="{% url 'shop.views.subcategory_views.subcategories' %}"><i class="fa fa-fw fa-dashboard"></i>Subcategories</a>
+                        <a href="{% url 'shop.views.subcategory.subcategories' %}"><i class="fa fa-fw fa-dashboard"></i>Subcategories</a>
+                    </li>
+                    <li class="">
+                        <a href="{% url 'products' %}"><i class="fa fa-fw fa-dashboard"></i>Products</a>
                     </li>
 
                 </ul>

@@ -7,6 +7,9 @@ from shop.models import Category
 from shop.models import Subcategory
 import json
 
+
+
+
 def categories(request):
     #Show the categories page
     return render(request, "shop/categories.html")

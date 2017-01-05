@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.urlresolvers import reverse
 
 # Create your models here.
 
@@ -18,4 +19,4 @@ class Product(models.Model):
     name = models.CharField(max_length=100)
     subcategory = models.ForeignKey(Subcategory, on_delete=models.CASCADE)
     price = models.FloatField()
-    image = models.CharField(max_length=1000)
+    image = models.ImageField(upload_to = 'images/')

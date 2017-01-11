@@ -2,32 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a87b9f5b-68b4-4b97-a39b-79a2b9ee03ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/templates/shop/login_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/templates/shop/registration_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/views/user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop/static/shop/js/productCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/forms.py" afterPath="$PROJECT_DIR$/shop/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/models.py" afterPath="$PROJECT_DIR$/shop/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/static/shop/css/mystyle.css" afterPath="$PROJECT_DIR$/shop/static/shop/css/mystyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/base.html" afterPath="$PROJECT_DIR$/shop/templates/shop/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/categories.html" afterPath="$PROJECT_DIR$/shop/templates/shop/categories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/form-template.html" afterPath="$PROJECT_DIR$/shop/templates/shop/form-template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/index.html" afterPath="$PROJECT_DIR$/shop/templates/shop/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/product_form.html" afterPath="$PROJECT_DIR$/shop/templates/shop/product_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/products.html" afterPath="$PROJECT_DIR$/shop/templates/shop/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/templates/shop/subcategories.html" afterPath="$PROJECT_DIR$/shop/templates/shop/subcategories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/urls.py" afterPath="$PROJECT_DIR$/shop/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/views/__init__.py" afterPath="$PROJECT_DIR$/shop/views/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/views/index.py" afterPath="$PROJECT_DIR$/shop/views/index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/views/product.py" afterPath="$PROJECT_DIR$/shop/views/product.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/blank-page.html" afterPath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/blank-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/bootstrap-elements.html" afterPath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/bootstrap-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/bootstrap-grid.html" afterPath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/bootstrap-grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/charts.html" afterPath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/charts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/forms.html" afterPath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/forms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/index-rtl.html" afterPath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/index-rtl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/index.html" afterPath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/tables.html" afterPath="$PROJECT_DIR$/startbootstrap-sb-admin-gh-pages/tables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/settings.py" afterPath="$PROJECT_DIR$/website/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +47,8 @@
       <file leaf-file-name="categoryCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop/static/shop/js/categoryCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="17">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -86,41 +67,41 @@
       <file leaf-file-name="products.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop/templates/shop/products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product_form.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop/templates/shop/product_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/templates/shop/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="79" column="90" lean-forward="false" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/views/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="613">
+              <caret line="65" column="61" lean-forward="false" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="61" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#2502#2523#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productCtrl.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shop/static/shop/js/productCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mystyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/static/shop/css/mystyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/static/shop/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -176,7 +157,6 @@
         <option value="$PROJECT_DIR$/shop/admin.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/shop/templates/shop/category_add.html" />
-        <option value="$PROJECT_DIR$/shop/static/shop/js/script.js" />
         <option value="$PROJECT_DIR$/shop/views.py" />
         <option value="$PROJECT_DIR$/shop/views/index_views.py" />
         <option value="$PROJECT_DIR$/shop/views/category_views.py" />
@@ -187,11 +167,9 @@
         <option value="$PROJECT_DIR$/shop/static/admin/css/base.css" />
         <option value="$PROJECT_DIR$/shop/templates/admin/base_site.html" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django-1.9-py3.6.egg/django/contrib/admin/sites.py" />
-        <option value="$PROJECT_DIR$/shop/models.py" />
         <option value="$PROJECT_DIR$/shop/templates/shop/product_add.html" />
         <option value="$PROJECT_DIR$/website/urls.py" />
         <option value="$PROJECT_DIR$/shop/static/shop/js/categoryCtrl.js" />
-        <option value="$PROJECT_DIR$/shop/static/shop/css/mystyle.css" />
         <option value="$PROJECT_DIR$/shop/views/__init__.py" />
         <option value="$PROJECT_DIR$/shop/templates/shop/form-template.html" />
         <option value="$PROJECT_DIR$/shop/forms.py" />
@@ -213,11 +191,15 @@
         <option value="$PROJECT_DIR$/shop/templates/shop/registration_form.html" />
         <option value="$PROJECT_DIR$/shop/views/index.py" />
         <option value="$PROJECT_DIR$/shop/templates/shop/index.html" />
-        <option value="$PROJECT_DIR$/shop/templates/shop/base.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/categories.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/subcategories.html" />
-        <option value="$PROJECT_DIR$/shop/templates/shop/products.html" />
         <option value="$PROJECT_DIR$/shop/templates/shop/product_form.html" />
+        <option value="$PROJECT_DIR$/shop/models.py" />
+        <option value="$PROJECT_DIR$/shop/static/shop/css/mystyle.css" />
+        <option value="$PROJECT_DIR$/shop/static/shop/js/script.js" />
+        <option value="$PROJECT_DIR$/shop/templates/shop/base.html" />
+        <option value="$PROJECT_DIR$/shop/templates/shop/products.html" />
+        <option value="$PROJECT_DIR$/shop/static/shop/js/productCtrl.js" />
       </list>
     </option>
   </component>
@@ -738,20 +720,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django-1.9-py3.6.egg/django/contrib/admin/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django-1.9-py3.6.egg/django/contrib/admin/exceptions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django-1.9-py3.6.egg/django/contrib/admin/filters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -854,13 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/shop/css/mystyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1003,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop/views/product.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1028,14 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/shop/js/categoryCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,14 +1035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="79" column="90" lean-forward="false" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1113,18 +1051,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/templates/shop/products.html">
+    <entry file="file://$PROJECT_DIR$/shop/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/templates/shop/product_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="306">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/static/shop/css/mystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/static/shop/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/static/shop/js/categoryCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="120" column="43" lean-forward="false" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/templates/shop/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="65" column="61" lean-forward="false" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="61" />
+          <folding>
+            <element signature="e#2502#2523#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/static/shop/js/productCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
           <folding />
         </state>
       </provider>

@@ -10,6 +10,8 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.core.urlresolvers import reverse_lazy
 import json
 from shop.forms import ProductForm
+from django.contrib.auth.decorators import login_required
+
 
 
 class IndexView(generic.ListView):

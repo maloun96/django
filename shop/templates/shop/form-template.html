@@ -1,11 +1,13 @@
 <div>
-
+    {% if error_message %}
+        <p><strong>{{ error_message }}</strong></p>
+    {% endif %}
     {% for field in form %}
         <div class="form-group">
             <span class="text-danger small pull-left" style="margin-top: 15px;width: 100%">{{ field.errors }}</span>
             <label class="control-label col-sm-2 pull-left" style="width:100%">{{ field.label_tag }}</label>
             <div style="clear:both"></div>
-            <div class="col-sm-10">{{ field }}</div>
+            <div class="col-sm-12">{{ field }}</div>
         </div>
     {% endfor %}
 </div>

@@ -1,6 +1,22 @@
 {% extends 'shop/base.html' %}
 
 {% block content %}
+
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Categories
+            </h1>
+            <ol class="breadcrumb">
+                <li class="active">
+                    <i class="fa fa-support"></i> Categories
+                </li>
+            </ol>
+        </div>
+    </div>
+    <!-- /.row -->
+
     <div class="row" ng-controller="categoryCtrl" ng-init="init()">
 
 
@@ -10,7 +26,7 @@
 
                 <input type="hidden" ng-model="category_id" name="category_id">
 
-                <label>Name </label>
+                <label>Category name </label>
                 <input ng-model="name" name="name" class="form-control">
                 <p class="help-block">Insert the new category name.</p>
 
@@ -18,14 +34,13 @@
                 <button class="btn btn-info" ng-click="resetForm()">Reset</button>
                 <div style="clear: both;height: 20px;"></div>
                 <div class="alert alert-success" ng-show="success == true">
-                    <strong>Success!</strong> Indicates a successful or positive action.
+                    <strong>Success!</strong>
                 </div>
 
             </div>
 
         </form>
         <div class="col-lg-12">
-            <h2>Bordered Table</h2>
             <div class="table-responsive">
                 <table class="table table-bordered table-hover">
                     <thead>
@@ -35,13 +50,13 @@
                     </tr>
                     </thead>
                     <tbody>
-                        <tr ng-repeat="(key, value) in list">
-                            <td>{[{ value.name }]}</td>
-                            <td>
-                                <a href="" ng-click="deleteCategory(value.key)" class="btn btn-danger">Delete</a>
-                                <a href="" ng-click="editCategory(value.key)" class="btn btn-info">Edit</a>
-                            </td>
-                        </tr>
+                    <tr ng-repeat="(key, value) in list">
+                        <td>{[{ value.name }]}</td>
+                        <td>
+                            <a href="" ng-click="deleteCategory(value.key)" class="btn btn-danger">Delete</a>
+                            <a href="" ng-click="editCategory(value.key)" class="btn btn-info">Edit</a>
+                        </td>
+                    </tr>
                     </tbody>
                 </table>
             </div>
